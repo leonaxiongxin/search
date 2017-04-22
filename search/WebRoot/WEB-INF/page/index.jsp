@@ -16,13 +16,13 @@
  <body>
  <%@ include file="/base/jsp/background.jsp"%>
     <div id="title">
-        <p>“检单创想”南京大学第六届信息检索大赛</p>
-		<p id="sub_title">暨第四届在宁高校信息检索大赛</p>
+        <p>“检单创想”南京大学第七届信息检索大赛</p>
+		<p id="sub_title">暨第五届在宁高校信息检索大赛</p>
     </div>
     
     <div id="center">
-        <div id="navbar" class="clear">
-                <a href="index.do">天天爱检索</a>
+        <div id="navbar" class="clear" style="background-image:url('${path}/base/images/navbg.png')">
+                <a href="index.do" class="active">天天爱检索</a>
                 <a href="game.do">参加比赛</a>
                 <a href="rank.do">结果公示</a>
                 <a href="contact.do">联系我们</a>
@@ -47,12 +47,14 @@
         </div>
     </div>
  
-    <div id="index-footer">
-
+    <div id="index-footer" style="background-image:url('${path}/base/images/logobg.png')">
         <div>
-            <p>Copyright &copy; 2016 南京大学信息管理学院 版权所有</p>
+            <img id="left" src = "${path}/base/images/IMlogo.png" />
+			<img id="right" src = "${path}/base/images/wanfang.png" />
         </div>
-    </div>
+	</div>
+	 
+	<%@ include file="/base/jsp/footer.jsp"%>
 <script src="base/js/jquery-1.8.3.min.js"></script>
  <script src="base/js/jquery.flexslider-min.js"></script>
     <script type="text/javascript">
