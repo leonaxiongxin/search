@@ -18,7 +18,7 @@
  <%@ include file="/base/jsp/background.jsp"%>
   <%@ include file="/base/jsp/header.jsp"%>
    <div id="content-wrapper" class="content-wrapper clear">
-        <div id="rank-warn"><!--当前参赛人数${total}人-->复赛成绩排名</div>
+        <div id="rank-warn"><!--当前参赛人数${total}人-->初赛成绩排名</div>
        <div id="rank-wrapper">
         <c:set var="i" value="1"></c:set>
           <table class="rank" border="1">
