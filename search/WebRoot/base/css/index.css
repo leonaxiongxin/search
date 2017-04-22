@@ -1,16 +1,28 @@
 /*index*/
+/* Font-face Icons */
+@font-face {
+	font-family: 'title-font';
+	src:url('../fonts/RZRGHJ.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 #title{
-    font-size: 28px;
+    font-size: 30px;
     padding-top: 47px;
     margin-bottom: 30px;
     text-align: center;
     font-weight: bold;
-    font-family: "ו";
+    font-family: title-font;
+}
+
+#title p{
+	color: #835039;
+	font-family: title-font;
 }
 
 #navbar{
     width: 950px;
-    background-color: rgba(239,239,239,0.7);
+    background-color: #efe8e0;
     margin: 0px auto;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgb(171,187,191);
@@ -21,12 +33,17 @@
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: rgb(35,178,248);
+    color: #835039;
     display: block;
     float: left;
 }
 #navbar a:hover{
-    color: white;
+    color: #5C765C;
+	text-decoration:none;
+}
+
+navbar a.active{
+	background-color: #e8d8a0;
 }
 #photo{
     width: auto;
@@ -37,19 +54,17 @@
     margin: 3px auto;
 }
 
+
+
 #index-footer{
-    height: 50px;
-    margin: 45px auto;
-    
-    background-color: rgba(183,216,249,0.3);
-    color: white;
+    height: 40px;
+    margin-top: 35px;
+	/* background-color: rgba(206,226,198,0.5);  */
     text-align: center;
 }
 
 
-#index-footer p{
-	
-    line-height:50px;
-    color: white;
-    font-size: 15px;
-}
+ #index-footer img{
+	height:24px;
+	margin:10px 5px 6px 5px;
+} 

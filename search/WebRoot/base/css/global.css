@@ -44,11 +44,11 @@ zoom:1;
 }
 .hide{display:none;}
 img.background{z-index:-1;position:absolute;height:100%;width:100%;filter:alpha(opacity = 85);opacity:0.85}
-#header{width:100%; background:none;border-bottom:2px solid #ccc;}
-#header-content{position:relative;width:900px; margin:0 auto; color:#c4c4c4b;line-height:40px;padding:10px 0;}
+#header{width:100%; background:none;border-bottom:2px solid rgba(131,80,57,0.8);}
+#header-content{position:relative;width:900px; margin:0 auto; color:#c4c4c4;line-height:40px;padding:10px 0;}
 #header-left{float:left; margin:0px;}
 #header-right{float:right; margin:0 20px 0 0;}
-#header b{float:left;margin:0 5px;color:#c4c4c4;}
+#header b{float:left;margin:0 5px;color:#000;}
 #header a,#header a:visited{font-size:15px; color:#4b4b4b;float:left;padding:0 5px 0 5px;}
 #header h2.header-warn-info{font-size:20px;color:#4b4b4b;font-weight:normal;}
 /**/
@@ -63,7 +63,7 @@ img.background{z-index:-1;position:absolute;height:100%;width:100%;filter:alpha(
 /**/
 .schools-page,.page-wrapper{padding:10px 20px;text-align:right;}
 .schools-page a,.page-wrapper a{float:left;padding:5px 10px;display:block;color:#5d5d5d;font-size:14px;}
-.page-wrapper a.now,.schools-page a.now{color:#ff6600;}
+.page-wrapper a.now,.schools-page a.now{color:rgba(131,80,57,0.8);}
 /**/
 .mask{z-index: 90000;background-color: black; opacity: 0.5; filter:alpha(opacity=50);overflow: hidden; width: 100%; height:100%;position: absolute; top: 0px; left: 0px;}
 .close{top:1px; right:1px;cursor:pointer; z-index: 90000; height:50px; width:50px; background: url("../img/close.png"); position:absolute;}

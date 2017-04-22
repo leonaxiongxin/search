@@ -23,12 +23,12 @@
     height:35px;
     line-height:35px;
     width:250px;
-    border-bottom:3px solid #cccccc;
+    border-bottom:1px solid #835039;
     padding:0 6px;
     background-color: rgba(255,255,255,0);
     margin:0px;
     font-size: 20px;
-    color: rgb(113,150,168);
+    color: rgba(131,80,57,0.8);
     outline: none;
 
 }
@@ -53,7 +53,7 @@
 .login-but-wrapper input{
     width:270px;
     height:40px;
-    background-color: rgb(113,150,168);
+    background-color: rgba(131,80,57,0.8);
     border-radius: 20px;
     font-size: 23px;
     word-spacing: 20px;
@@ -64,10 +64,10 @@
 .login-tip-wrapper{
     text-align:right;
     width:100%;
-    color:#4b4b4b;
+    color:rgba(131,80,57,0.8);
 }
 .login-tip-wrapper a{
-    color:#4b4b4b;
+    color:rgba(131,80,57,0.8);
     font-size:12px;
 }
 .login-input-wrapper{
@@ -101,6 +101,7 @@
 .regist-wrapper .input-wrapper .regist-input{position:relative;z-index:1;height:25px;line-height:25px;width:205px;border:1px solid #cccccc;border-radius:2px;padding:0 3px;color:#4b4b4b;}
 .regist-wrapper .input-wrapper .search-bottom-input{position:absolute;}
 .regist-wrapper .input-wrapper-but{padding:10px 160px;}
+.regist-wrapper .input-wrapper-but input{background-color:rgba(131,80,57,0.8);}
 #school-input li{z-index:10000;}
 .z-index1{z-index:9000;}
 .z-index2{z-index:8000;}
